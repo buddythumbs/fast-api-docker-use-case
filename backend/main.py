@@ -10,10 +10,6 @@ app = FastAPI()
 # Create all tables specified in all models
 Base.metadata.create_all(bind=engine)
 
-@app.get("/",tags=["Home"])
-def home_page():
-    return {"Dashboard": "Home"}
-
 app.include_router(
     stocks.router,
     tags=["Stocks"],
