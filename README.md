@@ -12,7 +12,7 @@ The use case is just a nice use case for CRUD operations but not a main part of 
 
 Next steps:
 
-1.  Improve the business logic behind the API calls too be more inlice with clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html 
+1.  Improve the business logic behind the API calls too be more inline with clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html 
 2.  Implement react front end.
 3.  Once front end is implemented, add service workers to allow extra long running tasks.
 
